@@ -25,9 +25,9 @@ print(f"В обратном порядке: {words[::-1]}")
 # Дана строка. Выведите её в верхнем регистре, в нижнем регистре и с
 # заглавной первой буквой.
 texts = "BACON"
-print(texts.upper())       # HELLO WORLD
-print(texts.lower())       # hello world
-print(texts.capitalize())  # Hello world
+print(texts.upper())
+print(texts.lower())
+print(texts.capitalize())
 # 5
 # Дана строка и символ c. Выведите, есть ли c в строке, сколько раз он
 # встречается и индекс первого вхождения.
@@ -47,14 +47,14 @@ print(new_txt)
 # Дана строка с лишними пробелами в начале и в конце. Удалите их и
 # выведите длину результата.
 tt = "   Words are necessary   "
-cleaned_text = tt.strip() # Удаляет пробелы только по краям
+cleaned_text = tt.strip()
 print(f"Результат: '{cleaned_text}'")
 print(f"Длина: {len(cleaned_text)}")
 # 8
 # Дана строка из имени и фамилии через пробел. Выведите сначала
 # фамилию, потом имя, а затем инициалы.
 name = "Artyom Ivanov"
-parts = name.split() # Разбиваем по пробелу в список ['Ivan', 'Ivanov']
+parts = name.split()
 name = parts[0]
 surname = parts[1]
 print(f"{surname} {name}")
@@ -72,7 +72,7 @@ else:
 # Дана строка из слов через пробел. Выведите количество слов, первое
 # слово и последнее слово.
 tired = "banana kivi apple carrot"
-wods = text.split() # Получаем список слов
+wods = text.split()
 print(f"Количество слов: {len(wods)}")
 print(f"Первое слово: {wods[0]}")
 print(f"Последнее слово: {wods[-1]}")
