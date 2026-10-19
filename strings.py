@@ -72,7 +72,7 @@ else:
 # Дана строка из слов через пробел. Выведите количество слов, первое
 # слово и последнее слово.
 tired = "banana kivi apple carrot"
-wods = text.split()
+wods = tired.split()
 print(f"Количество слов: {len(wods)}")
 print(f"Первое слово: {wods[0]}")
 print(f"Последнее слово: {wods[-1]}")
